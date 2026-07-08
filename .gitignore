@@ -1,0 +1,28 @@
+# Build
+target/
+
+# Reports
+test-output/
+Reports/
+allure-results/
+allure-report/
+
+# Runtime Files
+Screenshots/
+logs/
+*.log
+
+# Compiled Files
+*.class
+
+# IDE Files
+.classpath
+.project
+.settings/
+.idea/
+.vscode/
+*.iml
+
+# OS Files
+.DS_Store
+Thumbs.db

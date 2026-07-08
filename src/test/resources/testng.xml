@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Framework Suite"
+	parallel="classes"
+	thread-count="2">
+
+	<listeners>
+		<listener class-name="com.automation.listeners.TestListener" />
+	</listeners>
+
+	<test name="Smoke Test">
+
+		<classes>
+		
+			<class name="com.automation.tests.HomePageTest" />
+			<class name="com.automation.tests.LoginPageTest" />
+			<class name="com.automation.tests.LogoutTest" />
+			<class name="com.automation.tests.SignUpTest" />
+
+		</classes>
+
+	</test>
+
+</suite>
