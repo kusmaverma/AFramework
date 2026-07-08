@@ -1,21 +1,31 @@
-# Build
-target/
+# ============================
+# Build Output
+# ============================
+/target/
 
-# Reports
-test-output/
-Reports/
-allure-results/
-allure-report/
+# ============================
+# Test Reports (Generated)
+# ============================
+/Reports/
+/test-output/
+/allure-results/
+/allure-report/
 
-# Runtime Files
-Screenshots/
-logs/
+# ============================
+# Runtime Generated Files
+# ============================
+/Screenshots/
+/logs/
 *.log
 
+# ============================
 # Compiled Files
+# ============================
 *.class
 
+# ============================
 # IDE Files
+# ============================
 .classpath
 .project
 .settings/
@@ -23,6 +33,22 @@ logs/
 .vscode/
 *.iml
 
+# ============================
 # OS Files
+# ============================
 .DS_Store
 Thumbs.db
+
+# ============================
+# Maven Wrapper (Optional)
+# ============================
+!.mvn/
+!mvnw
+!mvnw.cmd
+
+# ============================
+# IMPORTANT:
+# Never ignore Java source code
+# ============================
+!src/main/java/**
+!src/test/java/**

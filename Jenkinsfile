@@ -4,7 +4,7 @@ pipeline {
 
     tools {
         jdk 'JDK21'
-        maven 'Maven-3.9'
+        maven 'Maven 3.9'
     }
 
     stages {
@@ -64,7 +64,7 @@ Please check the HTML Report in Jenkins for detailed execution results.
 Thanks,
 Jenkins
 """,
-                to: 'sanjay.july@gmail.com'
+                to: 'shalu.thakur15@gmail.com'
             )
         }
 
@@ -85,7 +85,7 @@ Please check the Jenkins Console Output and HTML Report for failure details.
 Thanks,
 Jenkins
 """,
-                to: 'sanjay.july@gmail.com'
+                to: 'shalu.thakur15@gmail.com'
             )
         }
     }
