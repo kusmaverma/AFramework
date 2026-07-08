@@ -94,4 +94,4 @@ src/test/resources/testng.xml
 
 ## Author
 
-Sanjay Verma
+Kusma Verma
